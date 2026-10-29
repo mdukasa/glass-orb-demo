@@ -1,0 +1,34 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'io.github.mdukasa.glassorb'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'io.github.mdukasa.glassorb'
+        // Plain Java, no native code: runs on anything from Android 2.3 and ARMv6 up.
+        minSdk 9
+        targetSdk 22
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
