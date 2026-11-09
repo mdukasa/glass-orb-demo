@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/orb.gif" width="320" alt="A green glass orb inside a slowly turning ring of glass segments">
+  <img src="docs/orb.webp" width="320" alt="A green glass orb inside a slowly turning ring of glass segments">
 </p>
 
 <h1 align="center">Glass Orb</h1>
